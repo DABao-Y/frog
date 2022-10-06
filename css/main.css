@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap');
+body{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+.hz30{
+    height: 30px;
+}
+.hz50{
+    height: 50px;
+}
+.hz80{
+    height: 80px;
+}
+.hz100{
+    height: 100px;
+}
+.hz150{
+    height: 150px;
+}
+.hz250{
+    height: 250px;
+}
+.hz200{
+    height: 200px;
+}
+.hz300{
+    height: 300px;
+}
+.w200{
+    width: 200px;
+}
+.w150{
+    width: 150px;
+}
+.min-hz-500{
+    min-height: 500px;
+}
+.min-hz-600{
+    min-height: 600px;
+}
+.navtitle{
+    letter-spacing: 2px;    
+    color:rgb(255, 205, 67);
+    /* text-shadow: 1px 2px 2px rgb(76, 76, 76); */
+}
+.bg-1{
+    /* background-color: #cdaa6dea; */
+    background-color: rgba(255, 255, 255, 0.504);
+    transition: 0.5s;
+}
+.z-index{
+    z-index: 999;
+}
+header{
+    background-image:url(../images/1.jpg);
+    background-size: cover;
+    background-position:30% 70%;   
+}
+.fz-28{
+    font-size: 28px;
+}
+.fz-22{
+    font-size: 22px;
+}
+.fz-14{
+    font-size: 14px;
+}
+.fz-16{
+    font-size: 16px;
+}
+.fz-24{
+    font-size: 24px;
+}
+.fz-36{
+    font-size: 36px;
+}
+.fz-30{
+    font-size: 30px;
+}
+.fz-18{
+    font-size: 18px;
+}
+section .row{
+    position: relative;
+}
+.intro{
+    overflow: hidden;
+}
+.title1{
+    text-align: center;
+}
+.object-fit-cover{
+	object-fit: cover;
+}
+.aimg{
+    position: absolute;
+    left: 0;
+    width: 170px;
+}
+.post{
+    overflow: hidden;
+    border-radius: 15px;
+    /* box-shadow: 0px 3px 0px 0px rgb(215, 161, 107); */
+}
+.catalog{
+    background-image: url(../images/b1.png);
+}
+.iimg{
+    bottom: -2px;
+    right: 0;
+    margin: auto;
+    height: 400px;
+}
+.post3{
+    background-color: rgb(154, 53, 53);
+}
+.post2{
+    background-color: rgb(159, 199, 101);
+}
+.post1{
+    background-color: rgb(255, 215, 103);
+}
+.ktitle{
+    background-color: #5a8d3e; 
+    width: 150px;
+    height: 40px;
+    border-radius: 10px 10px 0px 0px;
+    color: #fff;
+    text-align: center;
+}
+.klist{
+    border-radius: 0px 10px 10px 10px;
+}
+/* .button{
+    background-color: #5a8d3e;
+    bottom: 5px;
+    right: 0;
+    margin: auto;
+    height: 50px;
+    width: 100px;
+    border-radius: 35px 0px 0px 35px;
+} */
+.bimg{
+    bottom: 30px;
+    right: 10px;
+    margin: auto;
+    width: 80px;
+}
+.timg{
+    transform: rotate(-10deg);
+    height: 35px;
+}
+.ttimg{
+    transform: rotate(10deg);
+}
+.list{
+    bottom: 35px;
+    right: 28px;
+    margin: auto; 
+}
+.bimg:hover{
+    animation-name: Anibimg;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+
+}
+@keyframes Anibimg {
+    0%{
+        transform: rotate(10deg);
+    }
+    25%{
+        transform: rotate(-10deg);
+    }
+    50%{
+        transform: rotate(10deg);
+    }
+    75%{
+        transform: rotate(-10deg); 
+    }
+    100%{
+        transform: rotate(10deg); 
+    }
+}
+.button2{
+    background-color: #5a8d3e;
+    height: 40px;
+    width: 70px;
+}
+
+.button4{
+    background-color: #5a8d3e;
+    height: 40px;
+    width: 80px;
+}
+.button3{
+    background-color: #5a8d3e;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    height: 40px;
+    width: 100px;
+}
+.btn2{
+    text-align: center;
+}
+.form{
+    border-radius: 5px 5px 5px 5px;
+    border: 1px solid rgba(200,200,200);
+}
+.modal-body{
+    text-align: center;
+}
+.tbody{
+    padding: 10px;
+    border-bottom: none;
+}
+th{
+    width: 180px;
+    border-bottom: none;
+    font-weight: normal;
+}
+.form2{
+    padding: 10px;
+    min-height: 100px;
+    border-radius: 5px 5px 5px 5px;
+    border: 1px solid rgba(200,200,200);
+}
+.fa{
+    width: 25px;
+    padding-right: 8px;
+    padding-left: 6px;
+}
+.option{
+    border:2px solid #5a8d3eba;
+    background-color: #fff;
+    height: 35px;
+    margin: 5px;
+    width: auto;
+    padding-right: 12px;
+    padding-left: 12px;
+    color: #5a8d3e;
+    border-radius:6px;
+}
+.option:hover{
+    background-color: #5a8d3e;
+    color:#fff;
+    transition: 0.3s;
+}
+.option:focus{
+    border:2px solid #5a8d3e;
+    background-color: #5a8d3e;
+    color:#fff;
+}
+.textselect{
+    user-select: none;
+}
+.post p{
+    color: rgb(114, 94, 37); 
+}
+.bg-2{
+    color: rgb(114, 94, 37);  
+}
+.fimg{
+    width: 100vw;
+}
